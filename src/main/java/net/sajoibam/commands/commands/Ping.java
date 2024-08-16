@@ -19,8 +19,6 @@ public class Ping extends Command {
         event.getMessage().getChannel()
                 .block().createMessage("Pong!")
                 .block();
-
-        System.out.println("comando pong");
     }
 
     @Override
